@@ -1,0 +1,38 @@
+
+Claro, aquí tienes un resumen de los comandos que utilizaste para gestionar tus proyectos en .NET Core:
+
+Crear una nueva solución:
+Para crear una nueva solución llamada NombreDeTuSolucion:
+
+        dotnet new sln -n NombreDeTuSolucion
+
+Agregar proyectos a la solución:
+Para agregar proyectos (Proyecto1.csproj y Proyecto2.csproj) a la solución:
+
+
+        dotnet sln add Ruta/Al/Proyecto1.csproj Ruta/Al/Proyecto2.csproj
+
+
+Construir un proyecto:
+Para compilar un proyecto (asegúrate de estar en el directorio del proyecto):
+    dotnet build
+
+
+Agregar referencia de proyecto:
+    Para agregar una referencia de proyecto desde Proyecto1.csproj a Proyecto2.csproj:
+            
+            dotnet add Ruta/Al/Proyecto1.csproj reference Ruta/Al/Proyecto2.csproj
+
+
+Quitar referencia de proyecto:
+    Para quitar una referencia de proyecto desde Proyecto1.csproj a Proyecto2.csproj:
+            
+            dotnet remove Ruta/Al/Proyecto1.csproj reference Ruta/Al/Proyecto2.csproj
+
+Ejecutar un proyecto:
+    Para ejecutar un proyecto (asegúrate de estar en el directorio del proyecto):
+        
+            dotnet run
+        
+        
+                                        ¡Espero que esto te sea útil!
